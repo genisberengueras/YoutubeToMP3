@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "downloadjs": "^1.4.7",
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "path": "^0.12.7",
+    "youtube-dl-exec": "^2.4.4",
+    "youtube-mp3-downloader": "^0.7.11",
+    "ytdl-core": "^4.11.4",
+    "ytdl-core-discord": "^1.3.1"
+  }
+}
