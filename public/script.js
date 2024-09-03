@@ -32,32 +32,3 @@ descargarBtn.addEventListener('click', async () => {
         }
     }
 });
-
-
-
-
-// const descargarBtn = document.getElementById('descargarBtn');
-// const urlInput = document.getElementById('urlInput');
-//
-// descargarBtn.addEventListener('click', async () => {
-//     const url = urlInput.value;
-//     if (url) {
-//         try {
-//             const response = await fetch('/descargar', {
-//                 method: 'POST',
-//                 headers: {
-//                     'Content-Type': 'application/json'
-//                 },
-//                 body: JSON.stringify({ url })
-//             });
-//             const data = await response.json();
-//             if (data.success) {
-//                 window.location.href = data.downloadUrl;
-//             } else {
-//                 console.log(data.error);
-//             }
-//         } catch (error) {
-//             console.log(error);
-//         }
-//     }
-// });
